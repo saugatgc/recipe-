@@ -1,0 +1,161 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: #ffffff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.logo-text .highlight {
+    color: #d9534f;
+}
+
+nav {
+    margin-right: 30%;
+}
+nav a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d9534f;
+}
+
+/* Slogan Section */
+.slogan {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.slogan h1 {
+    font-size: 24px;
+    color: #555;
+}
+
+.slogan h2 {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Recipes Section */
+.recipes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.recipe-card {
+    background-color: #ffffff;
+    width: 220px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.recipe-card:hover {
+    transform: scale(1.05);
+}
+
+.recipe-card img {
+    width: 220px;
+    height: 187px;
+}
+
+.recipe-card p {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* Find Recipes Section */
+.find-recipes {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.find-recipes h2 {
+    font-size: 24px;
+    color: #555;
+}
+
+/* Categories Section */
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.category-card {
+    text-align: center;
+    color: #333;
+}
+
+.category-card img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+.category-card:hover img {
+    transform: scale(1.05);
+}
+
+.category-card p {
+    font-size: 16px;
+    color: #d9534f;
+    font-weight: bold;
+}
+
